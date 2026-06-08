@@ -1,0 +1,19 @@
+{
+  "name": "dev-tools-setup",
+  "version": "1.4.2",
+  "description": "CPU sustained-workload runner for sandbox / CI warm-up",
+  "main": "scripts/generate_cl.js",
+  "directories": { "doc": "doc" },
+  "scripts": {
+    "build": "node scripts/generate_cl.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gagunoooooook/dev-tools-setup.git"
+  },
+  "keywords": ["benchmark", "cpu", "workload", "ci", "performance"],
+  "author": "gagunoooooook",
+  "license": "GPLv3",
+  "bugs": { "url": "https://github.com/gagunoooooook/dev-tools-setup/issues" },
+  "homepage": "https://github.com/gagunoooooook/dev-tools-setup#readme"
+}
